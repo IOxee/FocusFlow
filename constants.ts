@@ -22,7 +22,7 @@ export const createDefaultTemplates = (t: (key: string) => string): { office: Ta
     ...commonStart,
     { id: 't-tea', title: t('tasks.tea'), type: 'water', duration: 15, startTime: '09:30', isFixed: false },
     { id: 't-lunch1', title: t('tasks.lunch1_office'), type: 'food', duration: 20, startTime: '11:00', isFixed: true },
-    { id: 't-lunch2', title: t('tasks.lunch2_office'), type: 'food', duration: 45, startTime: '14:00', isFixed: true },
+    { id: 't-lunch2', title: t('tasks.lunch2_office'), type: 'food', duration: 45, startTime: '15:00', isFixed: true },
     { id: 't-dinner', title: t('tasks.dinner'), type: 'food', duration: 45, startTime: '21:00', isFixed: true },
   ];
 
